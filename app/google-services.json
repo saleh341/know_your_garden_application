@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "971102831249",
+    "project_id": "knowyourgarden-7d5b1",
+    "storage_bucket": "knowyourgarden-7d5b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971102831249:android:6346115b6f3c2fe7a1f530",
+        "android_client_info": {
+          "package_name": "com.example.knowyourgarden"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971102831249-8212h1de8h2m8r3slmbdsssk3a5im49s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_nReiEJjyOO4ZEQJhSl_NGUbaS5Oc7Bo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971102831249-8212h1de8h2m8r3slmbdsssk3a5im49s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

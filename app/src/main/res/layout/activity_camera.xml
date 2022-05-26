@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="16dp"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+tools:context=".camera">
+
+
+
+
+    <!--Image View for showing image chosen from gallery-->
+
+    <!--Linear Layout with horizontal orientation
+    and other properties-->
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="match_parent"
+        android:layout_height="466dp"
+
+        android:background="@drawable/cameraback"
+        android:backgroundTint="#BE130C0C" />
+
+    <LinearLayout
+        android:layout_width="332dp"
+        android:layout_height="81dp"
+        android:orientation="horizontal"
+        android:textAlignment="center">
+
+        <EditText
+            android:id="@+id/plantname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imgView"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp"
+            android:layout_marginEnd="82dp"
+            android:layout_marginBottom="12dp"
+            android:ems="10"
+            android:hint="Enter plant Name"
+            android:inputType="textPersonName"
+            android:textAlignment="textStart" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_button"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="35dp"
+        android:orientation="horizontal"
+        android:paddingStart="35dp"
+        android:weightSum="2">
+
+        <!--Button for choosing image from gallery-->
+        <Button
+            android:id="@+id/btnChoose"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="Choose"
+            android:textSize="12sp" />
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="4dp"
+            android:text="Take a Photo"
+            android:textSize="12sp"></Button>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <!--Button for uploading image-->
+        <Button
+            android:id="@+id/btnUpload"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="Upload"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
